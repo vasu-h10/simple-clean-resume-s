@@ -1,3 +1,4 @@
+
 body{
 background:#f5f5f5;
 display:flex;
@@ -9,21 +10,13 @@ font-family:"Times New Roman",serif;
 /* resume page */
 
 .resume{
-
 width:100%;
 max-width:190mm;
-
 background:white;
-
 padding:20mm;
-
 margin:auto;
-
 box-sizing:border-box;
-
-/* clean border */
 border:2px solid #333;
-
 }
 
 /* title */
