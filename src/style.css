@@ -46,9 +46,20 @@ break-after:avoid;
 page-break-after:avoid;
 }
 
+/* paragraph text */
+
 p{
 margin:6px 0;
 break-inside:avoid;
+page-break-inside:avoid;
+}
+
+/* keep resume sections together */
+
+.section{
+break-inside:avoid;
+page-break-inside:avoid;
+margin-bottom:10px;
 }
 
 /* header layout */
@@ -103,6 +114,7 @@ font-weight:bold;
 width:120px;
 height:auto;
 }
+
 /* inputs */
 
 textarea{
@@ -115,6 +127,8 @@ button{
 margin:5px 5px 10px 0;
 padding:6px 10px;
 }
+
+/* spacing */
 
 .resume > *{
 margin-bottom:10px;
