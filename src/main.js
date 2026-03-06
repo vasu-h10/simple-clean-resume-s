@@ -171,19 +171,25 @@ ${photoURL?`<img src="${photoURL}" class="photo">`:""}
 
 </div>
 
+<div class="section">
+
 <h3>OBJECTIVE</h3>
 
 <p>
 To secure a challenging position in a reputable organization where I can utilize my skills and contribute to the growth of the company.
 </p>
 
-${educationHTML?`<h3>EDUCATIONAL QUALIFICATION</h3>${educationHTML}`:""}
+</div>
 
-${experienceHTML?`<h3>EXPERIENCE</h3>${experienceHTML}`:""}
+${educationHTML?`<div class="section"><h3>EDUCATIONAL QUALIFICATION</h3>${educationHTML}</div>`:""}
 
-${skillsHTML?`<h3>SKILLS</h3>${skillsHTML}`:""}
+${experienceHTML?`<div class="section"><h3>EXPERIENCE</h3>${experienceHTML}</div>`:""}
 
-${languagesHTML?`<h3>LANGUAGES</h3>${languagesHTML}`:""}
+${skillsHTML?`<div class="section"><h3>SKILLS</h3>${skillsHTML}</div>`:""}
+
+${languagesHTML?`<div class="section"><h3>LANGUAGES</h3>${languagesHTML}</div>`:""}
+
+<div class="section">
 
 <h3>PERSONAL DETAILS</h3>
 
@@ -194,10 +200,13 @@ ${religion?`<p>Religion: ${religion}</p>`:""}
 
 <p>Nationality: Indian</p>
 
-${address?`<h3>ADDRESS</h3><p>${address}</p>`:""}
+</div>
 
-<div class="declaration">
+${address?`<div class="section"><h3>ADDRESS</h3><p>${address}</p></div>`:""}
 
+<div class="section declaration">
+
+<h3>DECLARATION</h3>
 
 <p>
 I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.
@@ -219,6 +228,7 @@ ${signURL?`<img src="${signURL}" class="sign-img">`:""}
 </div>
 
 </div>
+
 </div>
 
 </div>
